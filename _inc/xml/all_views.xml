@@ -1,0 +1,56 @@
+<theme>
+	
+	<view name="${v.allViews}">
+	
+		<extras>
+		
+			<image 			
+							name="systemFrame,gamelistFrame"
+							zIndex="10"
+							origin="${p.center}"
+							pos="${p.center}"
+							size="${s.full}"
+			>
+							<path>${root}/_inc/systems/default_system.jpg</path>
+							<path>${root}/_inc/systems/default_system-$language.jpg</path>
+							
+							<path>${root}/_inc/systems/$system/system.jpg</path>
+							<path>${root}/_inc/systems/$system/system-$language.jpg</path>
+								
+							<path.US>${root}/_inc/systems/$system/system-us.jpg</path.US>
+							<path.US>${root}/_inc/systems/$system/system-us-$language.jpg</path.US>
+							
+							<path.JP>${root}/_inc/systems/$system/system-jp.jpg</path.JP>
+							<path.JP>${root}/_inc/systems/$system/system-jp-$language.jpg</path.JP>
+							
+
+			</image>
+
+			<image 			
+							name="paper,paper2"
+							origin="${p.center}"
+							pos="${p.center}"
+							size="${s.full}"
+			/>
+
+			<image 			
+							name="paper"
+							zIndex="5000"
+
+							path="${root}/_inc/parts/paper.png"
+							color="1616164d"
+			/>
+
+			<image 			
+							name="paper2"
+							zIndex="4999"
+
+							path="${root}/_inc/parts/paper2.png"
+							color="f3efbf4d"
+			/>
+			
+		</extras>
+					
+	</view>
+
+</theme>

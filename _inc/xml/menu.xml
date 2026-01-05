@@ -1,0 +1,66 @@
+<theme>
+
+	<view name="menu">
+
+		<menuSwitch 
+							name="menuswitch"
+							pathOn="${root}/_inc/parts/on.png"
+							pathOff="${root}/_inc/parts/off.png"
+		/>
+
+		<menuText
+							name="menufooter"
+							
+							fontPath="${f.8bit}"
+							fontSize="${v.7}"
+							
+							color="${c.white}"
+		/>
+		
+		<menuText
+							name="menutext"
+							
+							fontPath="${f.8bit}"
+							fontSize="${v.7}"
+							
+							color="${c.white}"
+							separatorColor="${c.selector}"
+							selectorColor="${c.selector}b3"
+							selectedColor="${c.textSelected}"
+		/>
+		
+		<menuTextSmall
+							name="menutextsmall"
+							
+							fontPath="${f.8bit}"
+							fontSize="${v.7}"
+							
+							color="${c.white}"
+		/>
+		
+		<menuText
+							name="menutitle"
+							
+							fontPath="${f.8bit}"
+							fontSize="${v.12}"
+							
+							color="${c.white}"
+		/>
+		
+		<menuBackground
+							name="menubg"
+							
+							color="${c.menubg}bf"
+							
+							path="${root}/_inc/parts/borderframe.png"
+		/>
+ 
+		<menuButton 				
+							name="menubutton"
+							
+							filledPath="${root}/_inc/parts/button.png"
+		/>
+	
+	</view>
+
+</theme>

@@ -1,0 +1,48 @@
+<theme>
+	
+	<view name="detailed">
+
+		<textlist
+							name="gamelist"
+							
+							pos="${h.24} ${v.213}"
+							size="${h.272} ${v.121}"
+							
+							alignment="left"
+		/>
+
+		<image
+						name="md_image"
+						disabled="true"
+		/>
+
+		<video
+							name="md_video"
+							zIndex="200"
+
+							origin="${p.center}"
+							pos="${p.center}"
+							maxSize="${s.full}"
+							animations="fade"
+							delay="5000"
+
+		/>
+
+		<text
+						name=	"	md_genre,
+									md_lbl_players,
+									md_players,
+									md_description
+								"
+						disabled="true"
+		/>
+
+		<rating
+							name="md_rating"
+							disabled="true"
+		/>
+
+
+	</view>
+
+</theme>

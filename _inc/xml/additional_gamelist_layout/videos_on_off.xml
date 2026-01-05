@@ -1,0 +1,12 @@
+<theme>
+	
+	<view name="detailed">
+
+		<video
+						name="md_video"
+						disabled="true"
+		/>
+
+	</view>
+
+</theme>

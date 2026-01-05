@@ -1,0 +1,20 @@
+<theme>
+
+	<view  name="${v.allViews},menu">
+	
+		<helpsystem
+							name="help"
+							
+							fontPath="${f.minibyte}"
+							fontSize="${v.10}"
+							
+							textColor="${c.text}"
+							iconColor="${c.selector}"
+							
+							pos="${h.19} ${v.219}"
+							size="${h.281} ${v.24}"
+		/>
+	
+	</view>
+
+</theme>

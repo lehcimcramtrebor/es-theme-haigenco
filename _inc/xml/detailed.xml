@@ -1,0 +1,147 @@
+<theme>
+	
+	<view name="detailed">
+	
+		<extras>
+
+			<image 			
+							name="overlaygamelist"
+							zIndex="11"
+							origin="${p.center}"
+							pos="${p.center}"
+							size="${s.full}"
+							path="${root}/_inc/parts/overlaygamelist.png"
+			/>
+			
+		</extras>
+
+		<textlist
+							name="gamelist"
+							zIndex="100"
+							
+							origin="${p.bl}"
+							pos="${h.24} ${v.215}"
+							size="${h.259} ${v.51}"
+							
+							primaryColor="${c.textLight}"
+							secondaryColor="${c.text}"
+							selectedColor="${c.textSelected}"
+							
+							selectorOffsetY="${v.0}"
+							selectorHeight="${v.10}"
+							selectorColor="${c.selector}cc"
+							
+							horizontalMargin="${h.6}"
+							fontPath="${f.8bit}"
+							fontSize="${v.7}"
+							forceUppercase="1"
+							lineSpacing="1.18"
+							alignment="left"
+		/>
+
+		<image
+							name="md_image"
+							zIndex="200"
+							
+							origin="${p.uc}"
+							pos="${h.72} ${v.90}"
+							maxSize="${h.96} ${v.72}"
+		/>
+
+		<video
+							name="md_video"
+							zIndex="200"
+
+							origin="${p.uc}"
+							pos="${h.72} ${v.90}"
+							maxSize="${h.96} ${v.72}"
+							animations="breakingnews"
+							link="md_image"
+							loops="1"
+							delay="3000"
+		/>
+
+		<text
+						name="md_genre"
+						zIndex="100"
+						
+						origin="${p.ul}"
+						pos="${h.124} ${v.88}"
+						size="${h.172} ${v.12}"
+						
+						fontPath="${f.8bit}"
+						fontSize="${v.7}"
+						forceUppercase="1"
+						lineSpacing="1.43"
+						color="${c.textRed}"
+						alignment="left"
+						
+		/>
+
+		<text
+						name="md_lbl_players"
+						zIndex="100"
+						
+						origin="${p.ul}"
+						pos="${h.124} ${v.96}"
+						size="${h.172} ${v.12}"
+						
+						fontPath="${f.minibyte}"
+						fontSize="${v.6}"
+						forceUppercase="1"
+						lineSpacing="1.43"
+						color="${c.selector}"
+						alignment="left"
+						
+		/>
+
+		<text
+						name="md_players"
+						zIndex="100"
+						
+						origin="${p.ul}"
+						pos="${h.158} ${v.96}"
+						size="${h.172} ${v.12}"
+						
+						fontPath="${f.minibyte}"
+						fontSize="${v.6}"
+						forceUppercase="1"
+						lineSpacing="1.43"
+						color="${c.selector}"
+						alignment="left"
+						
+		/>
+
+		<text
+							name="md_description"
+							zIndex="100"
+							
+							origin="${p.bl}"
+							pos="${h.124} ${v.162}"
+							size="${h.172} ${v.55}"
+							
+							fontPath="${f.minibyte}"
+							fontSize="${v.6}"
+							forceUppercase="0"
+							lineSpacing="1.43"
+							color="${c.textLight}"
+							alignment="left"
+
+		/>
+
+		<rating
+							name="md_rating"
+							zIndex="300"
+							
+							origin="${p.center}"
+							pos="${h.291} ${v.218}"
+							size="${h.10} ${v.10}"
+							rotation="-90"
+							
+							filledPath="${root}/_inc/parts/filled.png"
+							unfilledPath="${root}/_inc/parts/unfilled.png"
+		/>
+					
+	</view>
+
+</theme>

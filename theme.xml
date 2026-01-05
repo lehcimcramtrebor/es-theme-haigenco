@@ -1,0 +1,70 @@
+<theme		
+			name="A.I. GEN. COMICS FOR CRT &amp; JAMMA"
+			version="0.1"
+			recalbox="10"
+			compatibility="crt,jamma"
+			resolutions="qvga,vga"
+>
+
+	<formatVersion>4</formatVersion>
+	
+	<!-- files contains each horizontal and vertical pixel variables for qvga res for pixel perfect work  -->
+	<include>${root}/_inc/xml/240p_variables.xml</include>
+
+	<!-- theme variables -->
+	<include>${root}/_inc/xml/variables.xml</include>
+
+	<!-- help -->
+	<include>${root}/_inc/xml/help.xml</include>
+
+	<!-- menu -->
+	<include>${root}/_inc/xml/menu.xml</include>
+
+	<!-- all views -->
+	<include>${root}/_inc/xml/all_views.xml</include>
+
+	<!-- system -->
+	<include>${root}/_inc/xml/system.xml</include>
+
+	<!-- detailed -->
+	<include>${root}/_inc/xml/detailed.xml</include>
+	
+	<!-- gamelist layout -->	
+	<subset 	
+				subset="gamelist_layout" 
+				title="Gamelist layout" 
+				title.fr="Style de la gamelist" 
+				help="Choose how your systemlist will look!" 
+				help.fr="Choisir la mise en page des listes de systèmes" 
+	/>
+	
+    <include 	
+				subset="gamelist_layout"
+				name="1 - Detailed"
+	/>
+
+    <include 	
+				subset="gamelist_layout"
+				name="2 - Basic"
+	>${root}/_inc/xml/additional_gamelist_layout/basic.xml</include>
+	
+	<!-- gamelist video on/off -->	
+	<subset 	
+				subset="gamelist_video" 
+				title="Games videos" 
+				title.fr="Vidéos de jeux" 
+				help="Turn on/off videos in gamelists" 
+				help.fr="Activer ou désactiver les vidéos dans les listes de jeux" 
+	/>
+	
+    <include 	
+				subset="gamelist_video"
+				name="1 - ON"
+	/>
+
+    <include 	
+				subset="gamelist_video"
+				name="2 - OFF"
+	>${root}/_inc/xml/additional_gamelist_layout/videos_on_off.xml</include>
+
+</theme>

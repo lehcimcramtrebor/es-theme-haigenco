@@ -1,0 +1,42 @@
+<theme>
+
+	<variables>
+
+		<!-- fonts -->
+		<variable 			name="f.minibyte"			value="${root}/_inc/fonts/minibyte-regular.ttf"/>
+		<variable 			name="f.komikax"			value="${root}/_inc/fonts/KOMIKAX_.ttf"/>
+		<variable 			name="f.digital"			value="${root}/_inc/fonts/DJB Get Digital.ttf"/>
+		<variable 			name="f.8bitLocal"			value="${root}/_inc/fonts/8-bit-fortress.ttf"/>
+		<variable 			name="f.8bit"				value=":/f8bitfortressplus.ttf"/>
+		
+		
+		<!-- views -->
+		<variable 			name="v.allViews"			value="system,detailed"/>
+		
+		<!-- colors -->
+		<variable 			name="c.text"				value="010202"/>
+		<variable 			name="c.textLight"			value="323232"/>
+		<variable 			name="c.white"				value="ffffff"/>
+		<variable 			name="c.textSelected"		value="fad400"/>
+		<variable 			name="c.textRed"			value="d62b22"/>
+		<variable 			name="c.selector"			value="296887"/>
+		<variable 			name="c.menubg"				value="000000"/>
+		<variable 			name="c.null"				value="00000000"/>
+
+		<!-- pos / size -->
+		<variable 			name="p.center"				value="0.5 0.5"/>
+		<variable 			name="p.uc"					value="0.5 0"/>
+		<variable 			name="p.bc"					value="0.5 1"/>
+		<variable 			name="p.lc"					value="0 0.5"/>
+		<variable 			name="p.rc"					value="1 0.5"/>
+		<variable 			name="p.ul"					value="0 0"/>
+		<variable 			name="p.bl"					value="0 1"/>
+		<variable 			name="p.ur"					value="1 0"/>
+		<variable 			name="p.br"					value="1 1"/>
+
+		<variable 			name="s.null"				value="0 0"/>
+		<variable 			name="s.full"				value="1 1"/>
+
+	</variables>
+
+</theme>
