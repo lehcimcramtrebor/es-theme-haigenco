@@ -1,0 +1,30 @@
+<theme>
+	
+	<view name="${v.allViews}">
+	
+		<extras>
+
+			<image 			
+							name="paper"
+			>
+			
+				<color if="!qvga">1616164d</color>
+				<color if="qvga">1616164d</color>
+			
+			</image>
+
+			<image 			
+							name="paper2"
+
+			>
+			
+				<color if="!qvga">f3efbf4d</color>
+				<color if="qvga">f3efbf33</color>
+			
+			</image>
+			
+		</extras>
+					
+	</view>
+
+</theme>

@@ -1,0 +1,21 @@
+<theme>
+	
+	<view name="${v.allViews}">
+	
+		<extras>
+
+			<image 			
+							name="paper"
+							color="${c.null}"
+			/>
+
+			<image 			
+							name="paper2"
+							color="${c.null}"
+			/>
+			
+		</extras>
+					
+	</view>
+
+</theme>

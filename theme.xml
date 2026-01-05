@@ -1,6 +1,6 @@
 <theme		
 			name="A.I. GEN. COMICS FOR CRT &amp; JAMMA"
-			version="0.1"
+			version="0.2"
 			recalbox="10"
 			compatibility="crt,jamma"
 			resolutions="qvga,vga"
@@ -34,8 +34,8 @@
 				subset="gamelist_layout" 
 				title="Gamelist layout" 
 				title.fr="Style de la gamelist" 
-				help="Choose how your systemlist will look!" 
-				help.fr="Choisir la mise en page des listes de systèmes" 
+				help="Choose how your systemlist will look." 
+				help.fr="Choisir la mise en page des listes de systèmes." 
 	/>
 	
     <include 	
@@ -53,8 +53,8 @@
 				subset="gamelist_video" 
 				title="Games videos" 
 				title.fr="Vidéos de jeux" 
-				help="Turn on/off videos in gamelists" 
-				help.fr="Activer ou désactiver les vidéos dans les listes de jeux" 
+				help="Turn on/off videos in gamelists." 
+				help.fr="Activer ou désactiver les vidéos dans les listes de jeux." 
 	/>
 	
     <include 	
@@ -66,5 +66,34 @@
 				subset="gamelist_video"
 				name="2 - OFF"
 	>${root}/_inc/xml/additional_gamelist_layout/videos_on_off.xml</include>
+	
+	<!-- paper texture level -->	
+	<subset 	
+				subset="paper_texture" 
+				title="Paper effect level" 
+				title.fr="Intensité de l'effet papier" 
+				help="Select level of paper effect on entire theme." 
+				help.fr="Réglez l'intensité de l'effet papier sur tout le thème." 
+	/>
+
+    <include 	
+				subset="paper_texture"
+				name="1 - Strong"
+	>${root}/_inc/xml/paper_strong.xml</include>
+
+    <include 	
+				subset="paper_texture"
+				name="2 - Medium"
+	>${root}/_inc/xml/paper_medium.xml</include>
+
+    <include 	
+				subset="paper_texture"
+				name="3 - Low"
+	>${root}/_inc/xml/paper_low.xml</include>
+
+    <include 	
+				subset="paper_texture"
+				name="4 - Off"
+	>${root}/_inc/xml/paper_off.xml</include>
 
 </theme>

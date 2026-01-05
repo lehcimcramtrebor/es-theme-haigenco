@@ -27,14 +27,19 @@
 							zIndex="100"
 							
 							pos="${h.25} ${v.200}"
-							size="${h.153} ${v.18}"
+							size="${h.153} ${v.17}"
 							
 							color="${c.white}"
 							fontPath="${f.komikax}"
-							fontSize="${v.6}"
+							fontSize="${v.7}"
 							alignment="center"
-							text="${system.type.name} / ${system.name} ( ${system.manufacturer} )"
-		/>
+							text="${system.type.name} ( ${system.manufacturer} )"
+		>
+		
+			<text if="!qvga &amp; !vga">Theme for 240p / 480i only !</text>
+			<text.fr if="!qvga &amp; !vga">Thème 240p / 480i seulement !</text.fr>
+		
+		</text>
 
 		</extras>
 
