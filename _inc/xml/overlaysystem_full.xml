@@ -1,0 +1,17 @@
+<theme>
+	
+	<view name="system">
+	
+		<extras>
+
+			<image 			
+							name="overlaysystem"
+
+							path="${root}/_inc/parts/overlaysystem_full.png"
+			/>
+
+		</extras>
+
+	</view>
+
+</theme>

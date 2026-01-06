@@ -1,6 +1,6 @@
 <theme		
 			name="A.I. GEN. COMICS FOR CRT &amp; JAMMA"
-			version="0.2"
+			version="0.3"
 			recalbox="10"
 			compatibility="crt,jamma"
 			resolutions="qvga,vga"
@@ -66,6 +66,30 @@
 				subset="gamelist_video"
 				name="2 - OFF"
 	>${root}/_inc/xml/additional_gamelist_layout/videos_on_off.xml</include>
+	
+	<!-- overlay system -->	
+	<subset 	
+				subset="overlay_system" 
+				title="Systemview overlay" 
+				title.fr="Elements vue système" 
+				help="Choose graphics elements to apply on entire screen in system view." 
+				help.fr="Choisissez les éléments graphiques supplémentaires à afficher par dessus la vue système.." 
+	/>
+
+    <include 	
+				subset="overlay_system"
+				name="1 - Full"
+	>${root}/_inc/xml/overlaysystem_full.xml</include>
+
+    <include 	
+				subset="overlay_system"
+				name="2 - Just half tones"
+	>${root}/_inc/xml/overlaysystem_halftones.xml</include>
+
+    <include 	
+				subset="overlay_system"
+				name="3 - Simple"
+	>${root}/_inc/xml/overlaysystem_simple.xml</include>
 	
 	<!-- paper texture level -->	
 	<subset 	

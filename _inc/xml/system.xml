@@ -10,7 +10,6 @@
 							origin="${p.center}"
 							pos="${p.center}"
 							size="${s.full}"
-							path="${root}/_inc/parts/overlaysystem.png"
 			/>
 
 		<carousel

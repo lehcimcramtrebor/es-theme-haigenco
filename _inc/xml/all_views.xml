@@ -14,14 +14,14 @@
 							<path>${root}/_inc/systems/default_system.jpg</path>
 							<path>${root}/_inc/systems/default_system-$language.jpg</path>
 							
-							<path>${root}/_inc/systems/$system/system.jpg</path>
-							<path>${root}/_inc/systems/$system/system-$language.jpg</path>
+							<path>${root}/_inc/systems/${system.name}/system.jpg</path>
+							<path>${root}/_inc/systems/${system.name}/system-$language.jpg</path>
 								
-							<path.US>${root}/_inc/systems/$system/system-us.jpg</path.US>
-							<path.US>${root}/_inc/systems/$system/system-us-$language.jpg</path.US>
+							<path.US>${root}/_inc/systems/${system.name}/system-us.jpg</path.US>
+							<path.US>${root}/_inc/systems/${system.name}/system-us-$language.jpg</path.US>
 							
-							<path.JP>${root}/_inc/systems/$system/system-jp.jpg</path.JP>
-							<path.JP>${root}/_inc/systems/$system/system-jp-$language.jpg</path.JP>
+							<path.JP>${root}/_inc/systems/${system.name}/system-jp.jpg</path.JP>
+							<path.JP>${root}/_inc/systems/${system.name}/system-jp-$language.jpg</path.JP>
 							
 
 			</image>
