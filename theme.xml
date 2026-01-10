@@ -1,6 +1,6 @@
 <theme		
 			name="A.I. GEN. COMICS FOR CRT &amp; JAMMA"
-			version="0.3"
+			version="0.4"
 			recalbox="10"
 			compatibility="crt,jamma"
 			resolutions="qvga,vga"
@@ -102,22 +102,22 @@
 
     <include 	
 				subset="paper_texture"
-				name="1 - Strong"
-	>${root}/_inc/xml/paper_strong.xml</include>
-
-    <include 	
-				subset="paper_texture"
-				name="2 - Medium"
-	>${root}/_inc/xml/paper_medium.xml</include>
-
-    <include 	
-				subset="paper_texture"
-				name="3 - Low"
-	>${root}/_inc/xml/paper_low.xml</include>
-
-    <include 	
-				subset="paper_texture"
-				name="4 - Off"
+				name="1 - Off"
 	>${root}/_inc/xml/paper_off.xml</include>
+	
+    <include 	
+				subset="paper_texture"
+				name="2 - Low"
+	>${root}/_inc/xml/paper_low.xml</include>
+	
+    <include 	
+				subset="paper_texture"
+				name="3 - Medium"
+	>${root}/_inc/xml/paper_medium.xml</include>
+	
+    <include 	
+				subset="paper_texture"
+				name="4 - Strong"
+	>${root}/_inc/xml/paper_strong.xml</include>
 
 </theme>

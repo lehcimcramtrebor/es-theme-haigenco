@@ -5,23 +5,23 @@
 		<extras>
 		
 			<image 			
-							name="systemFrame,gamelistFrame"
+							name="systemFrame"
 							zIndex="10"
 							origin="${p.center}"
 							pos="${p.center}"
 							size="${s.full}"
 			>
 							<path>${root}/_inc/systems/default_system.jpg</path>
-							<path>${root}/_inc/systems/default_system-$language.jpg</path>
+							<path>${root}/_inc/systems/default_system-en.jpg</path>
+							<path.fr>${root}/_inc/systems/default_system.jpg</path.fr>
 							
 							<path>${root}/_inc/systems/${system.name}/system.jpg</path>
-							<path>${root}/_inc/systems/${system.name}/system-$language.jpg</path>
+							<path>${root}/_inc/systems/${system.name}/system-en.jpg</path>
+							<path.fr>${root}/_inc/systems/${system.name}/system.jpg</path.fr>
 								
 							<path.US>${root}/_inc/systems/${system.name}/system-us.jpg</path.US>
-							<path.US>${root}/_inc/systems/${system.name}/system-us-$language.jpg</path.US>
 							
 							<path.JP>${root}/_inc/systems/${system.name}/system-jp.jpg</path.JP>
-							<path.JP>${root}/_inc/systems/${system.name}/system-jp-$language.jpg</path.JP>
 							
 
 			</image>
