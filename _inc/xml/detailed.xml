@@ -11,6 +11,7 @@
 							pos="${p.center}"
 							size="${s.full}"
 							path="${root}/_inc/parts/overlaygamelist.png"
+							color="${c.frame}"
 			/>
 			
 		</extras>

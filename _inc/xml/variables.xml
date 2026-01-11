@@ -14,6 +14,7 @@
 		<variable 			name="v.allViews"			value="system,detailed"/>
 		
 		<!-- colors -->
+		<variable 			name="c.frame"				value="fcfcfc"/>
 		<variable 			name="c.text"				value="010202"/>
 		<variable 			name="c.textLight"			value="323232"/>
 		<variable 			name="c.white"				value="ffffff"/>

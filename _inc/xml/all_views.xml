@@ -11,6 +11,7 @@
 							pos="${p.center}"
 							size="${s.full}"
 							path="${root}/_inc/parts/header.png"
+							color="${c.frame}"
 			/>
 		
 			<image 			
@@ -19,6 +20,7 @@
 							origin="${p.center}"
 							pos="${p.center}"
 							size="${s.full}"
+							color="${c.frame}"
 			>
 							<path>${root}/_inc/systems/default_system.jpg</path>
 							<path>${root}/_inc/systems/default_system-en.jpg</path>
