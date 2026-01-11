@@ -6,7 +6,7 @@
 
 			<image 			
 							name="overlaysystem"
-							zIndex="11"
+							zIndex="12"
 							origin="${p.center}"
 							pos="${p.center}"
 							size="${s.full}"

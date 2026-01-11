@@ -3,6 +3,15 @@
 	<view name="${v.allViews}">
 	
 		<extras>
+
+			<image 			
+							name="header"
+							zIndex="11"
+							origin="${p.center}"
+							pos="${p.center}"
+							size="${s.full}"
+							path="${root}/_inc/parts/header.png"
+			/>
 		
 			<image 			
 							name="systemFrame"
@@ -22,6 +31,8 @@
 							<path.US>${root}/_inc/systems/${system.name}/system-us.jpg</path.US>
 							
 							<path.JP>${root}/_inc/systems/${system.name}/system-jp.jpg</path.JP>
+
+							<path.fr>${root}/_inc/systems/test.jpg</path.fr>
 							
 
 			</image>
