@@ -35,8 +35,6 @@
 							<path.JP>${root}/_inc/systems/${system.name}/system-jp.jpg</path.JP>
 
 							<path.fr>${root}/_inc/systems/test.jpg</path.fr>
-							
-
 			</image>
 
 			<image 			
@@ -50,20 +48,16 @@
 							name="paper"
 							zIndex="5000"
 			>
-			
 				<path if="!qvga">${root}/_inc/parts/paper.png</path>
 				<path if="qvga">${root}/_inc/parts/paper_240p.png</path>
-			
 			</image>
 
 			<image 			
 							name="paper2"
 							zIndex="4999"
 			>
-			
 				<path if="!qvga">${root}/_inc/parts/paper2.png</path>
 				<path if="qvga">${root}/_inc/parts/paper2_240p.png</path>
-			
 			</image>
 			
 		</extras>
