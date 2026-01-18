@@ -15,9 +15,7 @@
 		<carousel
 							name="systemcarousel"
 							zIndex="0"
-							
-							defaultTransition="slide"
-							
+														
 							size="${s.null}"
 		/>
 		
