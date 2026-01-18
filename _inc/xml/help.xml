@@ -8,7 +8,7 @@
 							fontPath="${f.minibyte}"
 							fontSize="${v.10}"
 							
-							textColor="${c.text}"
+							textColor="${c.textLight}"
 							iconColor="${c.selector}"
 							
 							pos="${h.19} ${v.219}"

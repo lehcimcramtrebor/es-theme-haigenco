@@ -21,10 +21,10 @@
 							zIndex="200"
 
 							origin="${p.center}"
-							pos="${p.center}"
-							maxSize="${s.full}"
+							pos="${h.160} ${v.152}"
+							maxSize="${h.272} ${v.124}"
 							animations="fade"
-							delay="5000"
+							delay="1000"
 
 		/>
 
