@@ -308,7 +308,7 @@ Si sortie JP exclue > ordre de priorité régionale EU, US, FR (formatage associ
 
 
 
-Imagines que pour chaque élément à modifier, tu décolles d'abord l'élément comme si il s'agissait d'un autocollant, derrière tu découvres la structure de base, et ensuite tu créé ton nouvel élément que tu colles sur l'image. Le résultat devra donner l'illusion que rien n'est collé, la continuité des subtils éclairages, du grain de l'image permettront de former un tout cohérent visuellement.
+Imagines que pour chaque élément à modifier, tu décolles d'abord l'élément comme si il s'agissait d'un autocollant, derrière tu découvres la structure de base (tu effaces donc le volume précédent), et ensuite tu créé ton nouvel élément (avec de nouvelles proportions) que tu colles sur l'image. Le résultat devra donner l'illusion que rien n'est collé, la continuité des subtils éclairages, du grain de l'image permettront de former un tout cohérent visuellement.
 
 
 
@@ -394,13 +394,12 @@ Le personnage :
 
 
 
-Tu devras donc scalper net le bas du personnage au niveau des lignes noires de cadre. 
-
-Nous autoriseront la partie haute et droite du personnage à laisser dépasser le haut de la tête ou un membre pour donner un effet "out of box". 
-
 Le personnage au premier plan est impérativement un dessin vectoriel lisse, de style Illustration moderne ou Cartoon HD, avec des lignes nettes et des dégradés fluides qui emprunte la palette de couleurs du jeu du personnage sur le système qu'il représente. Il doit y avoir un contraste radical de texture entre le personnage (lisse) et le décor (pixelisé).
 
 Contour sticker blanc épaisseur fil de pêche.
+
+Nous autoriseront la partie haute et droite du personnage à laisser dépasser le haut de la tête ou un membre pour donner un effet "out of box". 
+CONSIDÈRE LA LIGNE NOIRE INFERIEURE DU CADRE CONTENANT LE PIXEL ART ET TOUT CE QUI SE TROUVE EN DESSOUS COMME UN "CLIPPING MASK" (MASQUE D'ÉCRÊTAGE) AU PREMIER PLAN. Rien ne peut s'afficher par-dessus ce masque. Tu devras donc scalper net le bas du personnage au niveau des lignes noires de cadre. 
 
 
 
