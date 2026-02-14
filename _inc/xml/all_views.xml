@@ -5,16 +5,6 @@
 		<extras>
 
 			<image 			
-							name="header"
-							zIndex="11"
-							origin="${p.center}"
-							pos="${p.center}"
-							size="${s.full}"
-							path="${root}/_inc/parts/header.png"
-							color="${c.frame}"
-			/>
-		
-			<image 			
 							name="systemFrame"
 							zIndex="10"
 							origin="${p.center}"
