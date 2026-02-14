@@ -5,8 +5,8 @@
 		<textlist
 							name="gamelist"
 							
-							pos="${h.24} ${v.213}"
-							size="${h.272} ${v.121}"
+							pos="${h.24} ${v.214}"
+							size="${h.277} ${v.121}"
 							
 							alignment="left"
 		/>
@@ -22,7 +22,7 @@
 
 							origin="${p.center}"
 							pos="${h.160} ${v.152}"
-							maxSize="${h.272} ${v.124}"
+							maxSize="${h.272} ${v.125}"
 							animations="fade"
 							delay="1000"
 

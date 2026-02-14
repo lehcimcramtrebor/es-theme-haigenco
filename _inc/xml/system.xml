@@ -19,25 +19,6 @@
 							size="${s.null}"
 		/>
 		
-		<text 
-							name="systemName"
-							zIndex="100"
-							
-							pos="${h.25} ${v.200}"
-							size="${h.153} ${v.17}"
-							
-							color="${c.white}"
-							fontPath="${f.minibyte}"
-							fontSize="${v.6}"
-							alignment="center"
-							text="${system.type.name} ( ${system.manufacturer} )"
-		>
-		
-			<text if="!qvga &amp; !vga">Theme for 240p / 480i only !</text>
-			<text.fr if="!qvga &amp; !vga">Thème 240p / 480i seulement !</text.fr>
-		
-		</text>
-
 		</extras>
 
 		<text 
@@ -45,12 +26,16 @@
 							zIndex="100"
 							
 							origin="${p.ul}"
-							pos="${h.56} ${v.186}"
+							pos="-${h.60} ${v.199}"
 							
 							backgroundColor="${c.null}"
-							color="${c.text}"
-							fontPath="${f.minibyte}"
-							fontSize="${v.6}"
+							color="${c.white}"
+							fontPath="${f.digital}"
+							fontSize="${v.9}"
+		/>
+
+		<sound 				name="directory"
+							path="${root}/_inc/music"
 		/>
 		
 	</view>

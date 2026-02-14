@@ -21,8 +21,8 @@
 							zIndex="100"
 							
 							origin="${p.bl}"
-							pos="${h.24} ${v.215}"
-							size="${h.259} ${v.51}"
+							pos="${h.24} ${v.216}"
+							size="${h.265} ${v.51}"
 							
 							primaryColor="${c.textLight}"
 							secondaryColor="${c.text}"
@@ -131,7 +131,7 @@
 							zIndex="300"
 							
 							origin="${p.center}"
-							pos="${h.291} ${v.218}"
+							pos="${h.297} ${v.218}"
 							size="${h.10} ${v.10}"
 							rotation="-90"
 							
