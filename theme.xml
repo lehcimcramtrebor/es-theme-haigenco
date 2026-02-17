@@ -119,5 +119,44 @@
 				subset="paper_texture"
 				name="4 - Strong"
 	>${root}/_inc/xml/paper_strong.xml</include>
+	
+	<!-- Music -->	
+	<subset 	
+				subset="music" 
+				title="Theme music" 
+				title.fr="Musique du thème" 
+				help="Select or deactivate different playlists." 
+				help.fr="Selectionnez ou désactivez les différentes playlists du thème. Raffraichissez le thème ou redémarrez." 
+	/>
+	
+    <include 	
+				subset="music"
+				name="1 - Comix Zone"
+	>${root}/_inc/xml/music_comixZone.xml</include>
+	
+    <include 	
+				subset="music"
+				name="2 - Synth Club"
+	>${root}/_inc/xml/music_synthClub.xml</include>
+	
+    <include 	
+				subset="music"
+				name="3 - Mr. Boom"
+	>${root}/_inc/xml/music_MrBoom.xml</include>
+	
+    <include 	
+				subset="music"
+				name="4 - Waterflame"
+	>${root}/_inc/xml/music_oldBatocera.xml</include>
+	
+    <include 	
+				subset="music"
+				name="5 - Retrobat songs"
+	>${root}/_inc/xml/music_retrobat.xml</include>
+	
+    <include 	
+				subset="music"
+				name="6 - deactivate theme music"
+	/>
 
 </theme>

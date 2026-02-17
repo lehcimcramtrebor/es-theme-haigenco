@@ -1,0 +1,11 @@
+<theme>
+	
+	<view name="system">
+	
+		<sound 				name="directory"
+							path="${root}/_inc/music/retrobat"
+		/>
+		
+	</view>
+
+</theme>

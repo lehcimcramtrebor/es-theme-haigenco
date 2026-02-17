@@ -33,10 +33,6 @@
 							fontPath="${f.digital}"
 							fontSize="${v.9}"
 		/>
-
-		<sound 				name="directory"
-							path="${root}/_inc/music"
-		/>
 		
 	</view>
 
